@@ -1,6 +1,6 @@
 # Flow
 
-<div class="mermaid">
+```mermaid
 graph TD;
   subgraph Lambda
     lambda_request(("Request"))
@@ -30,4 +30,4 @@ graph TD;
     lambda_validate_template-.->validate_template_validate_template_format
   end
 
-</div>
+```
